@@ -1,0 +1,28 @@
+[0.068s] Invoking command in '/home/sunrise/ros2_ws_10_YOLO26_weed/build/yolov5_inference_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/ros2_ws_10_YOLO26_weed/build/yolov5_inference_node -- -j8 -l8
+[0.479s] [35m[1mConsolidate compiler generated dependencies of target inference_node[0m
+[1.204s] [ 50%] [32mBuilding CXX object CMakeFiles/inference_node.dir/src/inference_node.cpp.o[0m
+[47.959s] [100%] [32m[1mLinking CXX executable inference_node[0m
+[52.946s] [100%] Built target inference_node
+[53.003s] Invoked command in '/home/sunrise/ros2_ws_10_YOLO26_weed/build/yolov5_inference_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/ros2_ws_10_YOLO26_weed/build/yolov5_inference_node -- -j8 -l8
+[53.055s] Invoking command in '/home/sunrise/ros2_ws_10_YOLO26_weed/build/yolov5_inference_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunrise/ros2_ws_10_YOLO26_weed/build/yolov5_inference_node
+[53.096s] -- Install configuration: ""
+[53.097s] -- Installing: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/lib/yolov5_inference_node/inference_node
+[53.108s] -- Set runtime path of "/home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/lib/yolov5_inference_node/inference_node" to ""
+[53.110s] -- Up-to-date: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/yolov5_inference_node//launch
+[53.111s] -- Up-to-date: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/yolov5_inference_node//launch/weed_detection.launch.py
+[53.112s] -- Up-to-date: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/ament_index/resource_index/package_run_dependencies/yolov5_inference_node
+[53.112s] -- Up-to-date: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/ament_index/resource_index/parent_prefix_path/yolov5_inference_node
+[53.113s] -- Up-to-date: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/yolov5_inference_node/environment/ament_prefix_path.sh
+[53.114s] -- Up-to-date: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/yolov5_inference_node/environment/ament_prefix_path.dsv
+[53.114s] -- Up-to-date: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/yolov5_inference_node/environment/path.sh
+[53.115s] -- Up-to-date: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/yolov5_inference_node/environment/path.dsv
+[53.117s] -- Up-to-date: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/yolov5_inference_node/local_setup.bash
+[53.118s] -- Up-to-date: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/yolov5_inference_node/local_setup.sh
+[53.119s] -- Up-to-date: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/yolov5_inference_node/local_setup.zsh
+[53.120s] -- Up-to-date: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/yolov5_inference_node/local_setup.dsv
+[53.120s] -- Installing: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/yolov5_inference_node/package.dsv
+[53.121s] -- Up-to-date: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/ament_index/resource_index/packages/yolov5_inference_node
+[53.121s] -- Up-to-date: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/yolov5_inference_node/cmake/yolov5_inference_nodeConfig.cmake
+[53.122s] -- Up-to-date: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/yolov5_inference_node/cmake/yolov5_inference_nodeConfig-version.cmake
+[53.123s] -- Up-to-date: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/yolov5_inference_node/package.xml
+[53.128s] Invoked command in '/home/sunrise/ros2_ws_10_YOLO26_weed/build/yolov5_inference_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunrise/ros2_ws_10_YOLO26_weed/build/yolov5_inference_node

@@ -1,0 +1,635 @@
+[0.000000] (-) TimerEvent: {}
+[0.001761] (yolov5_inference_node) JobQueued: {'identifier': 'yolov5_inference_node', 'dependencies': OrderedDict()}
+[0.002446] (yolov5_inference_node) JobStarted: {'identifier': 'yolov5_inference_node'}
+[0.046524] (yolov5_inference_node) JobProgress: {'identifier': 'yolov5_inference_node', 'progress': 'cmake'}
+[0.048556] (yolov5_inference_node) Command: {'cmd': ['/usr/bin/cmake', '/home/sunrise/ros2_ws_10_YOLO26_weed/src/yolov5_inference_node', '-DCMAKE_INSTALL_PREFIX=/home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node'], 'cwd': '/home/sunrise/ros2_ws_10_YOLO26_weed/build/yolov5_inference_node', 'env': OrderedDict([('LANGUAGE', 'zh_CN'), ('USER', 'sunrise'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1836'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('HOME', '/home/sunrise'), ('DESKTOP_SESSION', 'xfce'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sunrise'), ('WINDOWID', '56623107'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1314,unix/ubuntu:/tmp/.ICE-unix/1314'), ('GDM_LANG', 'zh_CN'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/sunrise/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXiaT6x3/agent.1831'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/sunrise'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'xfce'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/sunrise/ros2_ws_10_YOLO26_weed/build/yolov5_inference_node'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098783] (-) TimerEvent: {}
+[0.199810] (-) TimerEvent: {}
+[0.300856] (-) TimerEvent: {}
+[0.401821] (-) TimerEvent: {}
+[0.502757] (-) TimerEvent: {}
+[0.603730] (-) TimerEvent: {}
+[0.686344] (yolov5_inference_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[0.703913] (-) TimerEvent: {}
+[0.804839] (-) TimerEvent: {}
+[0.905746] (-) TimerEvent: {}
+[1.006599] (-) TimerEvent: {}
+[1.107572] (-) TimerEvent: {}
+[1.208587] (-) TimerEvent: {}
+[1.268749] (yolov5_inference_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[1.308851] (-) TimerEvent: {}
+[1.326749] (yolov5_inference_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.409063] (-) TimerEvent: {}
+[1.510024] (-) TimerEvent: {}
+[1.610890] (-) TimerEvent: {}
+[1.711724] (-) TimerEvent: {}
+[1.761414] (yolov5_inference_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.808133] (yolov5_inference_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.811293] (yolov5_inference_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.811924] (-) TimerEvent: {}
+[1.814409] (yolov5_inference_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.831929] (yolov5_inference_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.912132] (-) TimerEvent: {}
+[2.013026] (-) TimerEvent: {}
+[2.113959] (-) TimerEvent: {}
+[2.214907] (-) TimerEvent: {}
+[2.243180] (yolov5_inference_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.292272] (yolov5_inference_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.293494] (yolov5_inference_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.295934] (yolov5_inference_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.312881] (yolov5_inference_node) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.315030] (-) TimerEvent: {}
+[2.415805] (-) TimerEvent: {}
+[2.516702] (-) TimerEvent: {}
+[2.617684] (-) TimerEvent: {}
+[2.718481] (-) TimerEvent: {}
+[2.819289] (-) TimerEvent: {}
+[2.920098] (-) TimerEvent: {}
+[3.020897] (-) TimerEvent: {}
+[3.121747] (-) TimerEvent: {}
+[3.222635] (-) TimerEvent: {}
+[3.323482] (-) TimerEvent: {}
+[3.424354] (-) TimerEvent: {}
+[3.525231] (-) TimerEvent: {}
+[3.626155] (-) TimerEvent: {}
+[3.727114] (-) TimerEvent: {}
+[3.828146] (-) TimerEvent: {}
+[3.929027] (-) TimerEvent: {}
+[4.029897] (-) TimerEvent: {}
+[4.130748] (-) TimerEvent: {}
+[4.231629] (-) TimerEvent: {}
+[4.332508] (-) TimerEvent: {}
+[4.433499] (-) TimerEvent: {}
+[4.534438] (-) TimerEvent: {}
+[4.635352] (-) TimerEvent: {}
+[4.736282] (-) TimerEvent: {}
+[4.783265] (yolov5_inference_node) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.836490] (-) TimerEvent: {}
+[4.937478] (-) TimerEvent: {}
+[5.038383] (-) TimerEvent: {}
+[5.139378] (-) TimerEvent: {}
+[5.240294] (-) TimerEvent: {}
+[5.341515] (-) TimerEvent: {}
+[5.386033] (yolov5_inference_node) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.441695] (-) TimerEvent: {}
+[5.542516] (-) TimerEvent: {}
+[5.603817] (yolov5_inference_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.629860] (yolov5_inference_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.642724] (-) TimerEvent: {}
+[5.683051] (yolov5_inference_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.742943] (-) TimerEvent: {}
+[5.761009] (yolov5_inference_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.843149] (-) TimerEvent: {}
+[5.860618] (yolov5_inference_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.943353] (-) TimerEvent: {}
+[6.044248] (-) TimerEvent: {}
+[6.131897] (yolov5_inference_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.144446] (-) TimerEvent: {}
+[6.147396] (yolov5_inference_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.244659] (-) TimerEvent: {}
+[6.345567] (-) TimerEvent: {}
+[6.446538] (-) TimerEvent: {}
+[6.547765] (-) TimerEvent: {}
+[6.648944] (-) TimerEvent: {}
+[6.749896] (-) TimerEvent: {}
+[6.850999] (-) TimerEvent: {}
+[6.909220] (yolov5_inference_node) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.951223] (-) TimerEvent: {}
+[7.037688] (yolov5_inference_node) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[7.051449] (-) TimerEvent: {}
+[7.152446] (-) TimerEvent: {}
+[7.219403] (yolov5_inference_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.252674] (-) TimerEvent: {}
+[7.263911] (yolov5_inference_node) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.352903] (-) TimerEvent: {}
+[7.453880] (-) TimerEvent: {}
+[7.554788] (-) TimerEvent: {}
+[7.655816] (-) TimerEvent: {}
+[7.684941] (yolov5_inference_node) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.687075] (yolov5_inference_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.756034] (-) TimerEvent: {}
+[7.857020] (-) TimerEvent: {}
+[7.958007] (-) TimerEvent: {}
+[8.058910] (-) TimerEvent: {}
+[8.102678] (yolov5_inference_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[8.112722] (yolov5_inference_node) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.159155] (-) TimerEvent: {}
+[8.260169] (-) TimerEvent: {}
+[8.361063] (-) TimerEvent: {}
+[8.461961] (-) TimerEvent: {}
+[8.478870] (yolov5_inference_node) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[8.562194] (-) TimerEvent: {}
+[8.663068] (-) TimerEvent: {}
+[8.691817] (yolov5_inference_node) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[8.762898] (yolov5_inference_node) StdoutLine: {'line': b'-- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[8.763664] (-) TimerEvent: {}
+[8.864340] (-) TimerEvent: {}
+[8.935297] (yolov5_inference_node) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[8.947802] (yolov5_inference_node) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.964490] (-) TimerEvent: {}
+[9.065310] (-) TimerEvent: {}
+[9.166150] (-) TimerEvent: {}
+[9.267067] (-) TimerEvent: {}
+[9.368121] (-) TimerEvent: {}
+[9.461079] (yolov5_inference_node) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[9.466768] (yolov5_inference_node) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[9.468053] (yolov5_inference_node) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[9.468751] (-) TimerEvent: {}
+[9.469318] (yolov5_inference_node) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[9.472820] (yolov5_inference_node) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[9.473698] (yolov5_inference_node) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[9.475919] (yolov5_inference_node) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[9.478760] (yolov5_inference_node) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.481386] (yolov5_inference_node) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[9.485954] (yolov5_inference_node) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[9.486792] (yolov5_inference_node) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[9.488951] (yolov5_inference_node) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.495342] (yolov5_inference_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.568984] (-) TimerEvent: {}
+[9.573044] (yolov5_inference_node) StdoutLine: {'line': b'-- Generating done\n'}
+[9.598822] (yolov5_inference_node) StdoutLine: {'line': b'-- Build files have been written to: /home/sunrise/ros2_ws_10_YOLO26_weed/build/yolov5_inference_node\n'}
+[9.669212] (-) TimerEvent: {}
+[9.676440] (yolov5_inference_node) CommandEnded: {'returncode': 0}
+[9.681822] (yolov5_inference_node) JobProgress: {'identifier': 'yolov5_inference_node', 'progress': 'build'}
+[9.686232] (yolov5_inference_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/ros2_ws_10_YOLO26_weed/build/yolov5_inference_node', '--', '-j8', '-l8'], 'cwd': '/home/sunrise/ros2_ws_10_YOLO26_weed/build/yolov5_inference_node', 'env': OrderedDict([('LANGUAGE', 'zh_CN'), ('USER', 'sunrise'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1836'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('HOME', '/home/sunrise'), ('DESKTOP_SESSION', 'xfce'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sunrise'), ('WINDOWID', '56623107'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1314,unix/ubuntu:/tmp/.ICE-unix/1314'), ('GDM_LANG', 'zh_CN'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/sunrise/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXiaT6x3/agent.1831'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/sunrise'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'xfce'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/sunrise/ros2_ws_10_YOLO26_weed/build/yolov5_inference_node'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.769435] (-) TimerEvent: {}
+[9.870362] (-) TimerEvent: {}
+[9.931886] (yolov5_inference_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/inference_node.dir/src/inference_node.cpp.o\x1b[0m\n'}
+[9.970568] (-) TimerEvent: {}
+[10.071504] (-) TimerEvent: {}
+[10.172320] (-) TimerEvent: {}
+[10.273174] (-) TimerEvent: {}
+[10.373995] (-) TimerEvent: {}
+[10.474827] (-) TimerEvent: {}
+[10.575663] (-) TimerEvent: {}
+[10.676582] (-) TimerEvent: {}
+[10.777494] (-) TimerEvent: {}
+[10.878369] (-) TimerEvent: {}
+[10.979247] (-) TimerEvent: {}
+[11.080132] (-) TimerEvent: {}
+[11.180951] (-) TimerEvent: {}
+[11.281793] (-) TimerEvent: {}
+[11.382692] (-) TimerEvent: {}
+[11.483601] (-) TimerEvent: {}
+[11.584519] (-) TimerEvent: {}
+[11.685540] (-) TimerEvent: {}
+[11.786487] (-) TimerEvent: {}
+[11.887329] (-) TimerEvent: {}
+[11.988148] (-) TimerEvent: {}
+[12.089045] (-) TimerEvent: {}
+[12.190103] (-) TimerEvent: {}
+[12.291056] (-) TimerEvent: {}
+[12.391854] (-) TimerEvent: {}
+[12.492699] (-) TimerEvent: {}
+[12.593680] (-) TimerEvent: {}
+[12.694643] (-) TimerEvent: {}
+[12.795570] (-) TimerEvent: {}
+[12.896510] (-) TimerEvent: {}
+[12.997444] (-) TimerEvent: {}
+[13.098316] (-) TimerEvent: {}
+[13.199184] (-) TimerEvent: {}
+[13.300167] (-) TimerEvent: {}
+[13.401176] (-) TimerEvent: {}
+[13.502201] (-) TimerEvent: {}
+[13.603203] (-) TimerEvent: {}
+[13.704223] (-) TimerEvent: {}
+[13.805187] (-) TimerEvent: {}
+[13.906092] (-) TimerEvent: {}
+[14.006986] (-) TimerEvent: {}
+[14.108016] (-) TimerEvent: {}
+[14.209013] (-) TimerEvent: {}
+[14.309982] (-) TimerEvent: {}
+[14.410885] (-) TimerEvent: {}
+[14.511760] (-) TimerEvent: {}
+[14.612644] (-) TimerEvent: {}
+[14.713583] (-) TimerEvent: {}
+[14.814556] (-) TimerEvent: {}
+[14.915502] (-) TimerEvent: {}
+[15.016585] (-) TimerEvent: {}
+[15.117578] (-) TimerEvent: {}
+[15.218573] (-) TimerEvent: {}
+[15.319550] (-) TimerEvent: {}
+[15.420642] (-) TimerEvent: {}
+[15.521758] (-) TimerEvent: {}
+[15.622702] (-) TimerEvent: {}
+[15.723608] (-) TimerEvent: {}
+[15.824566] (-) TimerEvent: {}
+[15.925701] (-) TimerEvent: {}
+[16.027197] (-) TimerEvent: {}
+[16.128456] (-) TimerEvent: {}
+[16.229706] (-) TimerEvent: {}
+[16.330933] (-) TimerEvent: {}
+[16.431876] (-) TimerEvent: {}
+[16.532950] (-) TimerEvent: {}
+[16.633878] (-) TimerEvent: {}
+[16.734785] (-) TimerEvent: {}
+[16.835720] (-) TimerEvent: {}
+[16.936673] (-) TimerEvent: {}
+[17.037643] (-) TimerEvent: {}
+[17.138601] (-) TimerEvent: {}
+[17.239531] (-) TimerEvent: {}
+[17.340448] (-) TimerEvent: {}
+[17.441380] (-) TimerEvent: {}
+[17.542307] (-) TimerEvent: {}
+[17.643232] (-) TimerEvent: {}
+[17.744159] (-) TimerEvent: {}
+[17.845155] (-) TimerEvent: {}
+[17.946134] (-) TimerEvent: {}
+[18.047075] (-) TimerEvent: {}
+[18.148039] (-) TimerEvent: {}
+[18.248974] (-) TimerEvent: {}
+[18.349925] (-) TimerEvent: {}
+[18.450888] (-) TimerEvent: {}
+[18.551858] (-) TimerEvent: {}
+[18.652822] (-) TimerEvent: {}
+[18.753873] (-) TimerEvent: {}
+[18.854992] (-) TimerEvent: {}
+[18.955958] (-) TimerEvent: {}
+[19.057001] (-) TimerEvent: {}
+[19.158048] (-) TimerEvent: {}
+[19.258955] (-) TimerEvent: {}
+[19.359853] (-) TimerEvent: {}
+[19.460787] (-) TimerEvent: {}
+[19.561726] (-) TimerEvent: {}
+[19.662622] (-) TimerEvent: {}
+[19.763712] (-) TimerEvent: {}
+[19.864947] (-) TimerEvent: {}
+[19.966102] (-) TimerEvent: {}
+[20.067052] (-) TimerEvent: {}
+[20.168013] (-) TimerEvent: {}
+[20.268860] (-) TimerEvent: {}
+[20.369711] (-) TimerEvent: {}
+[20.470546] (-) TimerEvent: {}
+[20.571449] (-) TimerEvent: {}
+[20.672400] (-) TimerEvent: {}
+[20.773362] (-) TimerEvent: {}
+[20.874293] (-) TimerEvent: {}
+[20.975315] (-) TimerEvent: {}
+[21.076316] (-) TimerEvent: {}
+[21.177205] (-) TimerEvent: {}
+[21.278056] (-) TimerEvent: {}
+[21.378921] (-) TimerEvent: {}
+[21.479941] (-) TimerEvent: {}
+[21.580825] (-) TimerEvent: {}
+[21.681743] (-) TimerEvent: {}
+[21.782662] (-) TimerEvent: {}
+[21.883534] (-) TimerEvent: {}
+[21.984377] (-) TimerEvent: {}
+[22.085272] (-) TimerEvent: {}
+[22.186220] (-) TimerEvent: {}
+[22.287169] (-) TimerEvent: {}
+[22.388112] (-) TimerEvent: {}
+[22.489081] (-) TimerEvent: {}
+[22.590158] (-) TimerEvent: {}
+[22.691068] (-) TimerEvent: {}
+[22.791994] (-) TimerEvent: {}
+[22.892868] (-) TimerEvent: {}
+[22.993774] (-) TimerEvent: {}
+[23.094669] (-) TimerEvent: {}
+[23.195558] (-) TimerEvent: {}
+[23.296441] (-) TimerEvent: {}
+[23.397390] (-) TimerEvent: {}
+[23.498353] (-) TimerEvent: {}
+[23.599240] (-) TimerEvent: {}
+[23.700138] (-) TimerEvent: {}
+[23.801066] (-) TimerEvent: {}
+[23.901983] (-) TimerEvent: {}
+[24.003131] (-) TimerEvent: {}
+[24.104002] (-) TimerEvent: {}
+[24.204862] (-) TimerEvent: {}
+[24.305721] (-) TimerEvent: {}
+[24.406581] (-) TimerEvent: {}
+[24.507515] (-) TimerEvent: {}
+[24.608437] (-) TimerEvent: {}
+[24.709369] (-) TimerEvent: {}
+[24.810282] (-) TimerEvent: {}
+[24.911167] (-) TimerEvent: {}
+[25.012063] (-) TimerEvent: {}
+[25.112961] (-) TimerEvent: {}
+[25.213828] (-) TimerEvent: {}
+[25.314677] (-) TimerEvent: {}
+[25.415574] (-) TimerEvent: {}
+[25.516499] (-) TimerEvent: {}
+[25.617435] (-) TimerEvent: {}
+[25.718313] (-) TimerEvent: {}
+[25.819219] (-) TimerEvent: {}
+[25.920105] (-) TimerEvent: {}
+[26.020973] (-) TimerEvent: {}
+[26.121876] (-) TimerEvent: {}
+[26.222777] (-) TimerEvent: {}
+[26.323635] (-) TimerEvent: {}
+[26.424481] (-) TimerEvent: {}
+[26.525328] (-) TimerEvent: {}
+[26.626178] (-) TimerEvent: {}
+[26.727058] (-) TimerEvent: {}
+[26.828012] (-) TimerEvent: {}
+[26.928920] (-) TimerEvent: {}
+[27.029842] (-) TimerEvent: {}
+[27.130785] (-) TimerEvent: {}
+[27.231716] (-) TimerEvent: {}
+[27.332636] (-) TimerEvent: {}
+[27.433609] (-) TimerEvent: {}
+[27.534531] (-) TimerEvent: {}
+[27.635384] (-) TimerEvent: {}
+[27.736230] (-) TimerEvent: {}
+[27.837098] (-) TimerEvent: {}
+[27.937985] (-) TimerEvent: {}
+[28.038813] (-) TimerEvent: {}
+[28.139641] (-) TimerEvent: {}
+[28.240447] (-) TimerEvent: {}
+[28.341262] (-) TimerEvent: {}
+[28.442107] (-) TimerEvent: {}
+[28.542932] (-) TimerEvent: {}
+[28.643767] (-) TimerEvent: {}
+[28.744579] (-) TimerEvent: {}
+[28.845413] (-) TimerEvent: {}
+[28.946301] (-) TimerEvent: {}
+[29.047129] (-) TimerEvent: {}
+[29.148064] (-) TimerEvent: {}
+[29.248941] (-) TimerEvent: {}
+[29.349801] (-) TimerEvent: {}
+[29.450687] (-) TimerEvent: {}
+[29.551598] (-) TimerEvent: {}
+[29.652482] (-) TimerEvent: {}
+[29.753360] (-) TimerEvent: {}
+[29.854317] (-) TimerEvent: {}
+[29.955235] (-) TimerEvent: {}
+[30.056157] (-) TimerEvent: {}
+[30.157114] (-) TimerEvent: {}
+[30.258029] (-) TimerEvent: {}
+[30.358861] (-) TimerEvent: {}
+[30.459703] (-) TimerEvent: {}
+[30.560582] (-) TimerEvent: {}
+[30.661500] (-) TimerEvent: {}
+[30.762462] (-) TimerEvent: {}
+[30.863364] (-) TimerEvent: {}
+[30.964283] (-) TimerEvent: {}
+[31.065187] (-) TimerEvent: {}
+[31.166066] (-) TimerEvent: {}
+[31.266930] (-) TimerEvent: {}
+[31.367868] (-) TimerEvent: {}
+[31.468759] (-) TimerEvent: {}
+[31.569639] (-) TimerEvent: {}
+[31.670556] (-) TimerEvent: {}
+[31.771500] (-) TimerEvent: {}
+[31.872423] (-) TimerEvent: {}
+[31.973335] (-) TimerEvent: {}
+[32.074239] (-) TimerEvent: {}
+[32.175149] (-) TimerEvent: {}
+[32.276048] (-) TimerEvent: {}
+[32.377040] (-) TimerEvent: {}
+[32.477992] (-) TimerEvent: {}
+[32.578893] (-) TimerEvent: {}
+[32.679791] (-) TimerEvent: {}
+[32.780706] (-) TimerEvent: {}
+[32.881610] (-) TimerEvent: {}
+[32.982520] (-) TimerEvent: {}
+[33.083438] (-) TimerEvent: {}
+[33.184344] (-) TimerEvent: {}
+[33.285279] (-) TimerEvent: {}
+[33.386173] (-) TimerEvent: {}
+[33.487080] (-) TimerEvent: {}
+[33.588157] (-) TimerEvent: {}
+[33.689100] (-) TimerEvent: {}
+[33.790036] (-) TimerEvent: {}
+[33.890977] (-) TimerEvent: {}
+[33.991910] (-) TimerEvent: {}
+[34.092890] (-) TimerEvent: {}
+[34.193829] (-) TimerEvent: {}
+[34.294776] (-) TimerEvent: {}
+[34.395704] (-) TimerEvent: {}
+[34.496630] (-) TimerEvent: {}
+[34.597566] (-) TimerEvent: {}
+[34.698497] (-) TimerEvent: {}
+[34.799443] (-) TimerEvent: {}
+[34.900387] (-) TimerEvent: {}
+[35.001304] (-) TimerEvent: {}
+[35.102237] (-) TimerEvent: {}
+[35.203162] (-) TimerEvent: {}
+[35.304177] (-) TimerEvent: {}
+[35.405114] (-) TimerEvent: {}
+[35.506074] (-) TimerEvent: {}
+[35.607094] (-) TimerEvent: {}
+[35.708173] (-) TimerEvent: {}
+[35.809255] (-) TimerEvent: {}
+[35.910259] (-) TimerEvent: {}
+[36.011199] (-) TimerEvent: {}
+[36.112079] (-) TimerEvent: {}
+[36.212962] (-) TimerEvent: {}
+[36.313806] (-) TimerEvent: {}
+[36.414687] (-) TimerEvent: {}
+[36.515613] (-) TimerEvent: {}
+[36.616588] (-) TimerEvent: {}
+[36.717503] (-) TimerEvent: {}
+[36.818393] (-) TimerEvent: {}
+[36.919389] (-) TimerEvent: {}
+[37.020307] (-) TimerEvent: {}
+[37.121171] (-) TimerEvent: {}
+[37.222013] (-) TimerEvent: {}
+[37.322833] (-) TimerEvent: {}
+[37.423651] (-) TimerEvent: {}
+[37.524482] (-) TimerEvent: {}
+[37.625321] (-) TimerEvent: {}
+[37.726201] (-) TimerEvent: {}
+[37.827110] (-) TimerEvent: {}
+[37.928064] (-) TimerEvent: {}
+[38.028953] (-) TimerEvent: {}
+[38.129862] (-) TimerEvent: {}
+[38.230754] (-) TimerEvent: {}
+[38.331621] (-) TimerEvent: {}
+[38.432492] (-) TimerEvent: {}
+[38.533358] (-) TimerEvent: {}
+[38.634228] (-) TimerEvent: {}
+[38.735149] (-) TimerEvent: {}
+[38.836045] (-) TimerEvent: {}
+[38.936896] (-) TimerEvent: {}
+[39.037790] (-) TimerEvent: {}
+[39.138727] (-) TimerEvent: {}
+[39.239678] (-) TimerEvent: {}
+[39.340600] (-) TimerEvent: {}
+[39.441525] (-) TimerEvent: {}
+[39.542439] (-) TimerEvent: {}
+[39.643389] (-) TimerEvent: {}
+[39.744352] (-) TimerEvent: {}
+[39.845277] (-) TimerEvent: {}
+[39.946200] (-) TimerEvent: {}
+[40.047137] (-) TimerEvent: {}
+[40.148134] (-) TimerEvent: {}
+[40.249076] (-) TimerEvent: {}
+[40.350169] (-) TimerEvent: {}
+[40.451198] (-) TimerEvent: {}
+[40.552136] (-) TimerEvent: {}
+[40.653082] (-) TimerEvent: {}
+[40.754158] (-) TimerEvent: {}
+[40.855238] (-) TimerEvent: {}
+[40.956297] (-) TimerEvent: {}
+[41.057427] (-) TimerEvent: {}
+[41.158540] (-) TimerEvent: {}
+[41.259441] (-) TimerEvent: {}
+[41.360371] (-) TimerEvent: {}
+[41.461335] (-) TimerEvent: {}
+[41.562239] (-) TimerEvent: {}
+[41.663182] (-) TimerEvent: {}
+[41.764128] (-) TimerEvent: {}
+[41.865018] (-) TimerEvent: {}
+[41.965927] (-) TimerEvent: {}
+[42.066967] (-) TimerEvent: {}
+[42.167983] (-) TimerEvent: {}
+[42.268916] (-) TimerEvent: {}
+[42.369895] (-) TimerEvent: {}
+[42.470984] (-) TimerEvent: {}
+[42.572013] (-) TimerEvent: {}
+[42.672965] (-) TimerEvent: {}
+[42.773919] (-) TimerEvent: {}
+[42.874773] (-) TimerEvent: {}
+[42.975685] (-) TimerEvent: {}
+[43.076614] (-) TimerEvent: {}
+[43.177564] (-) TimerEvent: {}
+[43.278506] (-) TimerEvent: {}
+[43.379448] (-) TimerEvent: {}
+[43.480365] (-) TimerEvent: {}
+[43.581272] (-) TimerEvent: {}
+[43.682305] (-) TimerEvent: {}
+[43.783285] (-) TimerEvent: {}
+[43.884360] (-) TimerEvent: {}
+[43.985423] (-) TimerEvent: {}
+[44.086395] (-) TimerEvent: {}
+[44.187415] (-) TimerEvent: {}
+[44.288422] (-) TimerEvent: {}
+[44.389425] (-) TimerEvent: {}
+[44.490432] (-) TimerEvent: {}
+[44.591280] (-) TimerEvent: {}
+[44.692143] (-) TimerEvent: {}
+[44.792937] (-) TimerEvent: {}
+[44.893747] (-) TimerEvent: {}
+[44.994608] (-) TimerEvent: {}
+[45.095532] (-) TimerEvent: {}
+[45.196525] (-) TimerEvent: {}
+[45.297583] (-) TimerEvent: {}
+[45.398572] (-) TimerEvent: {}
+[45.499555] (-) TimerEvent: {}
+[45.600633] (-) TimerEvent: {}
+[45.701991] (-) TimerEvent: {}
+[45.803028] (-) TimerEvent: {}
+[45.903922] (-) TimerEvent: {}
+[46.004892] (-) TimerEvent: {}
+[46.106224] (-) TimerEvent: {}
+[46.207583] (-) TimerEvent: {}
+[46.308564] (-) TimerEvent: {}
+[46.409478] (-) TimerEvent: {}
+[46.510384] (-) TimerEvent: {}
+[46.611382] (-) TimerEvent: {}
+[46.712318] (-) TimerEvent: {}
+[46.813303] (-) TimerEvent: {}
+[46.914195] (-) TimerEvent: {}
+[47.015175] (-) TimerEvent: {}
+[47.116096] (-) TimerEvent: {}
+[47.217011] (-) TimerEvent: {}
+[47.318092] (-) TimerEvent: {}
+[47.419058] (-) TimerEvent: {}
+[47.519942] (-) TimerEvent: {}
+[47.620807] (-) TimerEvent: {}
+[47.721663] (-) TimerEvent: {}
+[47.822513] (-) TimerEvent: {}
+[47.923419] (-) TimerEvent: {}
+[48.024401] (-) TimerEvent: {}
+[48.125353] (-) TimerEvent: {}
+[48.226297] (-) TimerEvent: {}
+[48.327270] (-) TimerEvent: {}
+[48.428322] (-) TimerEvent: {}
+[48.529312] (-) TimerEvent: {}
+[48.630278] (-) TimerEvent: {}
+[48.731419] (-) TimerEvent: {}
+[48.832404] (-) TimerEvent: {}
+[48.933322] (-) TimerEvent: {}
+[49.034331] (-) TimerEvent: {}
+[49.135206] (-) TimerEvent: {}
+[49.236115] (-) TimerEvent: {}
+[49.337013] (-) TimerEvent: {}
+[49.437962] (-) TimerEvent: {}
+[49.538804] (-) TimerEvent: {}
+[49.639634] (-) TimerEvent: {}
+[49.740481] (-) TimerEvent: {}
+[49.841297] (-) TimerEvent: {}
+[49.942129] (-) TimerEvent: {}
+[50.043050] (-) TimerEvent: {}
+[50.143893] (-) TimerEvent: {}
+[50.244756] (-) TimerEvent: {}
+[50.345722] (-) TimerEvent: {}
+[50.446608] (-) TimerEvent: {}
+[50.457066] (yolov5_inference_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable inference_node\x1b[0m\n'}
+[50.546797] (-) TimerEvent: {}
+[50.647754] (-) TimerEvent: {}
+[50.748766] (-) TimerEvent: {}
+[50.849675] (-) TimerEvent: {}
+[50.950646] (-) TimerEvent: {}
+[51.051587] (-) TimerEvent: {}
+[51.152484] (-) TimerEvent: {}
+[51.253399] (-) TimerEvent: {}
+[51.354362] (-) TimerEvent: {}
+[51.455263] (-) TimerEvent: {}
+[51.556259] (-) TimerEvent: {}
+[51.657514] (-) TimerEvent: {}
+[51.758512] (-) TimerEvent: {}
+[51.859603] (-) TimerEvent: {}
+[51.960655] (-) TimerEvent: {}
+[52.061593] (-) TimerEvent: {}
+[52.162558] (-) TimerEvent: {}
+[52.263504] (-) TimerEvent: {}
+[52.364467] (-) TimerEvent: {}
+[52.465389] (-) TimerEvent: {}
+[52.566307] (-) TimerEvent: {}
+[52.667225] (-) TimerEvent: {}
+[52.768169] (-) TimerEvent: {}
+[52.869055] (-) TimerEvent: {}
+[52.969938] (-) TimerEvent: {}
+[53.070889] (-) TimerEvent: {}
+[53.171776] (-) TimerEvent: {}
+[53.272651] (-) TimerEvent: {}
+[53.373555] (-) TimerEvent: {}
+[53.474446] (-) TimerEvent: {}
+[53.575317] (-) TimerEvent: {}
+[53.676185] (-) TimerEvent: {}
+[53.776995] (-) TimerEvent: {}
+[53.877825] (-) TimerEvent: {}
+[53.978687] (-) TimerEvent: {}
+[54.079546] (-) TimerEvent: {}
+[54.180400] (-) TimerEvent: {}
+[54.281299] (-) TimerEvent: {}
+[54.382192] (-) TimerEvent: {}
+[54.483030] (-) TimerEvent: {}
+[54.583871] (-) TimerEvent: {}
+[54.684764] (-) TimerEvent: {}
+[54.785528] (-) TimerEvent: {}
+[54.886298] (-) TimerEvent: {}
+[54.987162] (-) TimerEvent: {}
+[55.012951] (yolov5_inference_node) StdoutLine: {'line': b'[100%] Built target inference_node\n'}
+[55.065814] (yolov5_inference_node) CommandEnded: {'returncode': 0}
+[55.068990] (yolov5_inference_node) JobProgress: {'identifier': 'yolov5_inference_node', 'progress': 'install'}
+[55.087322] (-) TimerEvent: {}
+[55.109733] (yolov5_inference_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunrise/ros2_ws_10_YOLO26_weed/build/yolov5_inference_node'], 'cwd': '/home/sunrise/ros2_ws_10_YOLO26_weed/build/yolov5_inference_node', 'env': OrderedDict([('LANGUAGE', 'zh_CN'), ('USER', 'sunrise'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1836'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('HOME', '/home/sunrise'), ('DESKTOP_SESSION', 'xfce'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sunrise'), ('WINDOWID', '56623107'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1314,unix/ubuntu:/tmp/.ICE-unix/1314'), ('GDM_LANG', 'zh_CN'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/sunrise/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXiaT6x3/agent.1831'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/sunrise'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'xfce'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/sunrise/ros2_ws_10_YOLO26_weed/build/yolov5_inference_node'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[55.148096] (yolov5_inference_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[55.149081] (yolov5_inference_node) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/lib/yolov5_inference_node/inference_node\n'}
+[55.157829] (yolov5_inference_node) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/lib/yolov5_inference_node/inference_node" to ""\n'}
+[55.158643] (yolov5_inference_node) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/yolov5_inference_node//launch\n'}
+[55.159261] (yolov5_inference_node) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/yolov5_inference_node//launch/weed_detection.launch.py\n'}
+[55.159856] (yolov5_inference_node) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/ament_index/resource_index/package_run_dependencies/yolov5_inference_node\n'}
+[55.160766] (yolov5_inference_node) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/ament_index/resource_index/parent_prefix_path/yolov5_inference_node\n'}
+[55.161655] (yolov5_inference_node) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/yolov5_inference_node/environment/ament_prefix_path.sh\n'}
+[55.162431] (yolov5_inference_node) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/yolov5_inference_node/environment/ament_prefix_path.dsv\n'}
+[55.163150] (yolov5_inference_node) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/yolov5_inference_node/environment/path.sh\n'}
+[55.163845] (yolov5_inference_node) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/yolov5_inference_node/environment/path.dsv\n'}
+[55.164571] (yolov5_inference_node) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/yolov5_inference_node/local_setup.bash\n'}
+[55.165270] (yolov5_inference_node) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/yolov5_inference_node/local_setup.sh\n'}
+[55.166050] (yolov5_inference_node) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/yolov5_inference_node/local_setup.zsh\n'}
+[55.166728] (yolov5_inference_node) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/yolov5_inference_node/local_setup.dsv\n'}
+[55.167457] (yolov5_inference_node) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/yolov5_inference_node/package.dsv\n'}
+[55.168386] (yolov5_inference_node) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/ament_index/resource_index/packages/yolov5_inference_node\n'}
+[55.169214] (yolov5_inference_node) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/yolov5_inference_node/cmake/yolov5_inference_nodeConfig.cmake\n'}
+[55.169824] (yolov5_inference_node) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/yolov5_inference_node/cmake/yolov5_inference_nodeConfig-version.cmake\n'}
+[55.170467] (yolov5_inference_node) StdoutLine: {'line': b'-- Installing: /home/sunrise/ros2_ws_10_YOLO26_weed/install/yolov5_inference_node/share/yolov5_inference_node/package.xml\n'}
+[55.178583] (yolov5_inference_node) CommandEnded: {'returncode': 0}
+[55.188107] (-) TimerEvent: {}
+[55.289258] (-) TimerEvent: {}
+[55.320814] (yolov5_inference_node) JobEnded: {'identifier': 'yolov5_inference_node', 'rc': 0}
+[55.325705] (-) EventReactorShutdown: {}
