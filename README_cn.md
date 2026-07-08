@@ -71,7 +71,7 @@
 
 ### 2. 模型部署
 - 将训练好的 YOLO26 模型转换为地平线 `.bin` 格式（参考地平线工具链）。
-- 将模型文件和代码文件放置于 RDK X5 新创建的 `/home/sunrise/ros2_ws_10_YOLO26_weed/` 目录（或修改 `inference_node.cpp` 中的 `model_path` 参数，如果直接下载RDK_X5目录，`model_path` 参数则修改为`/home/sunrise/RDK_X5/`）。
+- 将模型文件和代码文件放置于 RDK X5 新创建的 `/home/sunrise/ros2_ws_10_YOLO26_weed/` 目录（或修改 `inference_node.cpp` 中的 `model_path` 参数，如果直接下载RDK_X5文件夹到 `/home/sunrise/` 目录，`model_path` 参数则修改为`/home/sunrise/RDK_X5/`）。
 
 ### 3. 编译与运行
 #### RDK X5 端
