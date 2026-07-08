@@ -1,0 +1,4 @@
+source;share/yolov5_inference_node/local_setup.bash
+source;share/yolov5_inference_node/local_setup.dsv
+source;share/yolov5_inference_node/local_setup.sh
+source;share/yolov5_inference_node/local_setup.zsh
